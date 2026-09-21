@@ -1,0 +1,5 @@
+.welcome-card { background: linear-gradient(120deg, #546c71, #324140); color: #fff; overflow: hidden; position: relative; }
+.welcome-card p { color: #d4eeea; margin-top: .45rem; }
+.welcome-card .button { background: var(--accent); color: #3d4848; margin-top: 1rem; }
+.mini-chart { align-items: end; display: flex; gap: .45rem; height: 130px; margin-top: 1rem; }
+.mini-chart span { background: var(--primary); border-radius: 4px 4px 0 0; flex: 1; min-height: 8px; }

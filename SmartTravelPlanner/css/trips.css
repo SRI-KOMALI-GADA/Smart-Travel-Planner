@@ -1,0 +1,9 @@
+.trip-card { display: grid; gap: .8rem; }
+.trip-members { display: grid; gap: .75rem; }
+.trip-member-row { align-items: end; border: 1px solid var(--border); border-radius: 10px; display: grid; gap: .7rem; grid-template-columns: 1fr 1.4fr auto; padding: .8rem; }
+.trip-meta { color: var(--text-muted); display: flex; flex-wrap: wrap; font-size: .82rem; gap: .65rem; }
+.trip-meta span::before { color: var(--accent); content: "•"; margin-right: .35rem; }
+
+@media (max-width: 680px) {
+	.trip-member-row { grid-template-columns: 1fr; }
+}

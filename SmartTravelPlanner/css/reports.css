@@ -1,0 +1,4 @@
+.report-bar { align-items: end; display: flex; gap: .7rem; height: 190px; margin-top: 1rem; }
+.report-bar div { background: var(--primary); border-radius: 5px 5px 0 0; flex: 1; min-height: 10px; position: relative; }
+.report-bar span { bottom: -1.5rem; color: var(--text-muted); font-size: .72rem; left: 50%; position: absolute; transform: translateX(-50%); }
+.report-bar em { font-size: .7rem; font-style: normal; left: 50%; position: absolute; top: -.95rem; transform: translateX(-50%); }

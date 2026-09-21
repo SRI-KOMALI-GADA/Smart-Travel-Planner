@@ -1,0 +1,3 @@
+.expense-total { align-items: baseline; display: flex; gap: .45rem; }
+.expense-total strong { font-family: "Space Grotesk", sans-serif; font-size: 2rem; }
+.category-dot { background: var(--primary); border-radius: 50%; display: inline-block; height: 9px; margin-right: .35rem; width: 9px; }

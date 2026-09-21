@@ -1,0 +1,4 @@
+.auth-card .form-note { font-size: .8rem; margin-top: .25rem; }
+.password-field { position: relative; }
+.password-field input { padding-right: 3rem; }
+.password-toggle { background: transparent; border: 0; color: var(--text-muted); position: absolute; right: .5rem; top: 2rem; }
